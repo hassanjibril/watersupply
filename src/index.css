@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./fonts/ProximaNova-Light.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/ProximaNova-Semibold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/ProximaNova-Bold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/ProximaNova-Extrabold.otf");
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./fonts/ProximaNova-Black.otf");
+}
+
+.error{
+  color:#FF0000;
+  width:100%;
+  margin-bottom:10px;
+  background:#FFFFCC;
+  box-shadow:0px 0px 1px 0px #FFFFCC;
+  padding:15px;
+}
+.slick-slide {
+  padding-top: 30px;
+}
+.helperText {
+  color: red;
+  text-align: center;
+}
+#alreadyAc {
+  cursor: pointer;
+}
+.circularProgress {
+  margin-right: 10px;
+}
+body {
+  user-select: none;
+}
+
+.pdf-export td, .pdf-export th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.pdf-export {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.pdf-export th, .pdf-export td {
+  padding: 15px;
+}
+
+.Mui-disabled .material-icons{
+  display: none !important;
+}

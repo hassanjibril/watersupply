@@ -1,0 +1,58 @@
+{
+  "name": "headwater_userapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@material-ui/icons": "^4.5.1",
+    "@progress/kendo-drawing": "^1.6.0",
+    "@progress/kendo-react-pdf": "^3.9.0",
+    "aws-amplify": "^1.2.2",
+    "aws-amplify-react": "^2.5.2",
+    "axios": "^0.19.0",
+    "formik": "^1.5.8",
+    "material-table": "^1.52.0",
+    "moment": "^2.24.0",
+    "react": "^16.10.2",
+    "react-confirm-alert": "^2.4.1",
+    "react-dom": "^16.10.2",
+    "react-modal": "^3.10.1",
+    "react-redux": "^7.1.1",
+    "react-responsive": "^8.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.2.0",
+    "react-slick": "^0.25.2",
+    "react-translate": "^7.0.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.4",
+    "redux-actions": "^2.6.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.1",
+    "redux-thunk-fsa": "^4.0.1",
+    "reselect": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

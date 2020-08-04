@@ -1,0 +1,78 @@
+
+
+p {
+margin-bottom:20px;
+}
+
+.clearout {
+height:20px;
+clear:both;
+}
+
+#flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;  
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*** Navigation ***/
+
+.slick-prev,
+.slick-next {
+    width: 89px !important;
+    height: 89px !important; 
+    position: absolute !important;
+    cursor: pointer !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    z-index: 100 !important;
+    opacity: 0.5 !important;
+}
+
+.slick-prev {
+    left: -120px !important;
+    background: url(../images/left.png) no-repeat !important;
+}
+
+.slick-next {
+    right: -120px !important;
+    background: url(../images/right.png) no-repeat !important;
+}/* CSS Document */
+
