@@ -9,7 +9,7 @@
     "@progress/kendo-react-pdf": "^3.9.0",
     "aws-amplify": "^1.2.2",
     "aws-amplify-react": "^2.5.2",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "formik": "^1.5.8",
     "material-table": "^1.52.0",
     "moment": "^2.24.0",
